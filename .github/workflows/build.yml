@@ -13,12 +13,12 @@ jobs:
     runs-on: windows-latest
     
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     
     - name: Set up Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
       with:
-        python-version: '3.13'
+        python-version: '3.11'
     
     - name: Install dependencies
       run: |
@@ -39,18 +39,13 @@ jobs:
         pyinstaller window_manager.spec
         
     - name: Upload artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: window_manager
         path: dist/window_manager.exe
 
     - name: Upload to Release
       if: github.event_name == 'release'
-      uses: actions/upload-release-asset@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      uses: softprops/action-gh-release@v1
       with:
-        upload_url: ${{ github.event.release.upload_url }}
-        asset_path: ./dist/window_manager.exe
-        asset_name: window_manager.exe
-        asset_content_type: application/octet-stream
+        files: dist/window_manager.exe
