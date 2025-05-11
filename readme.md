@@ -31,8 +31,11 @@ python -m PyInstaller  .\window_manager.spec
 # 直接运行
 
 从发现版本下载后直接运行即可、见截图
+
 ![](./images/main-0.png)
+
 从选择直接从需要在桌面右边和顶部隐藏的窗口（类似QQ），把显示的窗口隐藏即可
 
 最终实现的效果如下：
+
 ![](./images/main-1.gif)

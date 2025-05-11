@@ -12,6 +12,9 @@ import ctypes
 from ctypes import wintypes, c_void_p
 import win32process
 from PyQt6.QtWidgets import QScrollArea, QFrame
+import uuid
+import hashlib
+from PyQt6.QtWidgets import QLineEdit, QInputDialog
 
 # 设置日志到控制台和文件
 logging.basicConfig(
@@ -27,29 +30,73 @@ class WindowManager(QMainWindow):
     def __init__(self):
         try:
             super().__init__()
-            logging.info('Starting WindowManager initialization')
-            self.initUI()
-            self.target_windows = {}  # 使用字典存储窗口句柄和标题
-            self.is_hidden = {}  # 记录每个窗口的隐藏状态
+            # 先初始化授权相关属性
+            self.machine_code = self.get_machine_code()
+            self.license_key = self.generate_license_key(self.machine_code)
+            self.is_authorized = self.check_local_license()
+            self.target_windows = {}
+            self.is_hidden = {}
             self.monitor_timer = QTimer()
             self.monitor_timer.timeout.connect(self.check_window_position)
-            self.monitor_timer.start(100)  # 每100ms检查一次窗口位置
-            
-            # 初始化鼠标钩子
+            self.monitor_timer.start(100)
             self.hook = None
             self.user32 = ctypes.windll.user32
-            
-            # 初始化系统托盘
             self.initTray()
-            
-            # 设置窗口标志，使其不在任务栏显示
             self.setWindowFlag(Qt.WindowType.Tool)
-            
+            logging.info('Starting WindowManager initialization')
+            self.initUI()
             logging.info('WindowManager initialized successfully')
         except Exception as e:
             logging.error(f'Error in WindowManager initialization: {str(e)}\n{traceback.format_exc()}')
             QMessageBox.critical(None, '错误', f'初始化失败: {str(e)}')
             raise
+
+    def get_machine_code(self):
+        return str(uuid.getnode())
+
+    def generate_license_key(self, machine_code):
+        h = hashlib.sha256(machine_code.encode('utf-8')).hexdigest()
+        return h[-8:].upper()
+
+    def check_local_license(self):
+        try:
+            license_path = os.path.join(os.getcwd(), '.license.key')
+            if os.path.exists(license_path):
+                with open(license_path, 'r') as f:
+                    key = f.read().strip()
+                    return key == self.license_key
+            return False
+        except Exception as e:
+            logging.error(f'Error reading license: {str(e)}')
+            return False
+    
+    def save_local_license(self):
+        try:
+            license_path = os.path.join(os.getcwd(), '.license.key')
+            with open(license_path, 'w') as f:
+                f.write(self.license_key)
+            # 设置为隐藏文件（仅Windows有效）
+            try:
+                import ctypes
+                FILE_ATTRIBUTE_HIDDEN = 0x02
+                ctypes.windll.kernel32.SetFileAttributesW(license_path, FILE_ATTRIBUTE_HIDDEN)
+            except Exception as e:
+                logging.warning(f'无法设置隐藏属性: {str(e)}')
+        except Exception as e:
+            logging.error(f'Error saving license: {str(e)}')
+
+    def show_license_dialog(self):
+        text, ok = QInputDialog.getText(self, "授权码验证",
+            f"本机机器码：{self.machine_code}\n请输入授权码：")
+        if ok:
+            if text.strip().upper() == self.license_key:
+                self.is_authorized = True
+                self.save_local_license()
+                QMessageBox.information(self, "授权成功", "授权码正确，功能已解锁！")
+            else:
+                QMessageBox.critical(self, "授权失败", "授权码错误，请联系作者获取授权码。")
+        else:
+            QMessageBox.warning(self, "未授权", "未输入授权码，部分功能不可用。")
 
     def initTray(self):
         # 创建系统托盘图标
@@ -172,36 +219,50 @@ class WindowManager(QMainWindow):
             self.update_window_list()
 
     def initUI(self):
-        self.setWindowTitle('窗口管理器')
-        self.setGeometry(100, 100, 400, 300)
+        self.setWindowTitle('类QQ窗口隐藏器')
+        self.setGeometry(100, 100, 500, 300)
         
         # 创建中央窗口部件
         central_widget = QWidget()
         self.setCentralWidget(central_widget)
         self.main_layout = QVBoxLayout(central_widget)
         
-        # 添加说明标签
+        # 格式化后的程序使用说明，调整授权说明样式
+        instruction_text = (
+            "<b>用法：</b><br>"
+            "1. 点击<b>选择窗口</b>，选择需要隐藏的窗口<br>"
+            "2. 把需要隐藏的窗口移动到屏幕右边或顶部边缘，移开鼠标，窗口会自动隐藏<br>"
+            "3. 把鼠标移动到屏幕边缘，窗口就会自动弹出来显示，用完后又会自动隐藏<br><br>"
+            "<b>授权说明：</b><br>"
+            "1. 本软件一机一码，本机机器码：<span style='color:blue;'><b>{machine_code}</b></span><br>"
+            "2. 首次运行选择窗口会提示输入授权码<br>"
+            "3. 加微信：<span style='color:green;'><b>15050999</b></span> 发机器码，前100名用户免费获取<br>"
+            "4. 授权费用：19.9元终身使用"
+        ).format(machine_code=self.machine_code)
+        self.instruction_label = QLabel(instruction_text)
+        self.instruction_label.setWordWrap(True)
+        self.instruction_label.setStyleSheet("color: #555; font-size: 13px;")
+        self.instruction_label.setTextFormat(Qt.TextFormat.RichText)
+        self.main_layout.addWidget(self.instruction_label)
+        # 显示机器码
+        # self.machine_code_label = QLabel(f"本机机器码：{self.machine_code}")
+        # self.main_layout.addWidget(self.machine_code_label)
         self.status_label = QLabel('已选择的窗口:')
         self.main_layout.addWidget(self.status_label)
-        
-        # 窗口列表布局会在update_window_list中动态创建
-        
-        # 添加按钮布局
         button_layout = QHBoxLayout()
-        
-        # 添加选择窗口按钮
         select_btn = QPushButton('选择窗口')
         select_btn.clicked.connect(self.start_window_selection)
         button_layout.addWidget(select_btn)
-        
-        # 添加清除所有按钮
         clear_btn = QPushButton('清除所有')
         clear_btn.clicked.connect(self.clear_windows)
         button_layout.addWidget(clear_btn)
-        
         self.main_layout.addLayout(button_layout)
 
     def start_window_selection(self):
+        if not self.is_authorized:
+            self.show_license_dialog()
+            if not self.is_authorized:
+                return
         self.status_label.setText('请点击要管理的窗口...')
         
         def mouse_callback(nCode, wParam, lParam):
