@@ -19614,3 +19614,8 @@ NameError: name 'QHBoxLayout' is not defined. Did you mean: 'QVBoxLayout'?
 2025-05-11 14:47:49,564 - ERROR - Error in check_window_position: (0, 'SetForegroundWindow', 'No error message is available')
 2025-05-11 14:47:49,674 - ERROR - Error in check_window_position: (0, 'SetForegroundWindow', 'No error message is available')
 2025-05-11 14:47:49,798 - ERROR - Error in check_window_position: (0, 'SetForegroundWindow', 'No error message is available')
+2025-05-11 14:50:42,396 - INFO - Script started
+2025-05-11 14:50:42,396 - INFO - Application starting
+2025-05-11 14:50:42,453 - INFO - Starting WindowManager initialization
+2025-05-11 14:50:42,537 - INFO - WindowManager initialized successfully
+2025-05-11 14:50:42,567 - INFO - Main window shown

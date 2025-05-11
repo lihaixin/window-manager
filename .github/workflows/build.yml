@@ -11,6 +11,8 @@ on:
 jobs:
   build:
     runs-on: windows-latest
+    permissions:
+      contents: write  # 添加写入权限
     
     steps:
     - uses: actions/checkout@v4
@@ -48,5 +50,7 @@ jobs:
     - name: Upload to Release
       if: github.event_name == 'release'
       uses: softprops/action-gh-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 添加GitHub Token
       with:
         files: dist/window_manager.exe
