@@ -32,6 +32,7 @@ jobs:
         $url = "https://github.com/upx/upx/releases/download/v4.2.1/upx-4.2.1-win64.zip"
         Invoke-WebRequest -Uri $url -OutFile upx.zip
         Expand-Archive upx.zip -DestinationPath .
+        New-Item -ItemType Directory -Force -Path "C:\Program Files\UPX"
         Move-Item upx-4.2.1-win64/upx.exe "C:\Program Files\UPX\upx.exe" -Force
       
     - name: Build with PyInstaller
