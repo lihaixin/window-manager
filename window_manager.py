@@ -298,12 +298,66 @@ class WindowManager(QMainWindow):
                         if not is_mouse_in_window:
                             self.hide_window(hwnd, 'top')
                 else:
-                    if is_mouse_in_right_trigger or is_mouse_in_top_trigger:
-                        self.show_window(hwnd)
+                    # 如果鼠标在触发区域，无论前台窗口状态如何都显示窗口
+                    if (is_mouse_in_right_trigger or is_mouse_in_top_trigger):
+                        try:
+                            # 强制激活窗口
+                            win32gui.ShowWindow(hwnd, win32con.SW_RESTORE)
+                            
+                            # 使用 keybd_event 模拟按键来强制激活窗口
+                            win32api.keybd_event(0, 0, 0, 0)
+                            win32api.keybd_event(0, 0, win32con.KEYEVENTF_KEYUP, 0)
+                            
+                            # 强制设置窗口位置和状态
+                            win32gui.SetWindowPos(
+                                hwnd,
+                                win32con.HWND_TOPMOST,
+                                rect[0], rect[1],
+                                rect[2] - rect[0], rect[3] - rect[1],
+                                win32con.SWP_SHOWWINDOW | win32con.SWP_NOSIZE | win32con.SWP_NOMOVE | 
+                                win32con.SWP_ASYNCWINDOWPOS
+                            )
+                            
+                            # 立即调用show_window更新窗口位置
+                            self.show_window(hwnd)
+                            
+                            # 确保窗口完全显示后再取消置顶
+                            def delayed_restore():
+                                try:
+                                    if win32gui.IsWindow(hwnd):
+                                        win32gui.SetWindowPos(
+                                            hwnd,
+                                            win32con.HWND_NOTOPMOST,
+                                            rect[0], rect[1],
+                                            rect[2] - rect[0], rect[3] - rect[1],
+                                            win32con.SWP_SHOWWINDOW | win32con.SWP_NOSIZE | win32con.SWP_NOMOVE |
+                                            win32con.SWP_ASYNCWINDOWPOS
+                                        )
+                                except Exception as e:
+                                    logging.error(f"Error in delayed_restore: {str(e)}")
+                            
+                            QTimer.singleShot(100, delayed_restore)
+                            
+                        except Exception as e:
+                            logging.error(f"Error activating window: {str(e)}")
                         
         except Exception as e:
             logging.error(f"Error in check_window_position: {str(e)}")
             pass
+
+    def restore_window_state(self, hwnd):
+        """恢复窗口的正常状态（非置顶）"""
+        try:
+            rect = win32gui.GetWindowRect(hwnd)
+            win32gui.SetWindowPos(
+                hwnd,
+                win32con.HWND_NOTOPMOST,
+                rect[0], rect[1],
+                rect[2] - rect[0], rect[3] - rect[1],
+                win32con.SWP_SHOWWINDOW | win32con.SWP_NOSIZE | win32con.SWP_NOMOVE
+            )
+        except Exception as e:
+            logging.error(f"Error in restore_window_state: {str(e)}")
 
     def hide_window(self, hwnd, edge):
         try:
