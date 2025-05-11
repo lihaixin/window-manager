@@ -1,0 +1,481 @@
+('C:\\trae\\test\\build\\window_manager\\PYZ-00.pyz',
+ [('PyQt6',
+   'C:\\Users\\lihx\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\PyQt6\\__init__.py',
+   'PYMODULE-2'),
+  ('__future__',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\__future__.py',
+   'PYMODULE-2'),
+  ('_colorize',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\_colorize.py',
+   'PYMODULE-2'),
+  ('_compat_pickle',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\_compat_pickle.py',
+   'PYMODULE-2'),
+  ('_compression',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\_compression.py',
+   'PYMODULE-2'),
+  ('_opcode_metadata',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\_opcode_metadata.py',
+   'PYMODULE-2'),
+  ('_py_abc',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\_py_abc.py',
+   'PYMODULE-2'),
+  ('_pydatetime',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\_pydatetime.py',
+   'PYMODULE-2'),
+  ('_pydecimal',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\_pydecimal.py',
+   'PYMODULE-2'),
+  ('_pyi_rth_utils',
+   'C:\\Users\\lihx\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\PyInstaller\\fake-modules\\_pyi_rth_utils\\__init__.py',
+   'PYMODULE-2'),
+  ('_pyi_rth_utils.qt',
+   'C:\\Users\\lihx\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\PyInstaller\\fake-modules\\_pyi_rth_utils\\qt.py',
+   'PYMODULE-2'),
+  ('_strptime',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\_strptime.py',
+   'PYMODULE-2'),
+  ('_threading_local',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\_threading_local.py',
+   'PYMODULE-2'),
+  ('argparse',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\argparse.py',
+   'PYMODULE-2'),
+  ('ast',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\ast.py',
+   'PYMODULE-2'),
+  ('base64',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\base64.py',
+   'PYMODULE-2'),
+  ('bisect',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\bisect.py',
+   'PYMODULE-2'),
+  ('bz2',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\bz2.py',
+   'PYMODULE-2'),
+  ('calendar',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\calendar.py',
+   'PYMODULE-2'),
+  ('contextlib',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\contextlib.py',
+   'PYMODULE-2'),
+  ('contextvars',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\contextvars.py',
+   'PYMODULE-2'),
+  ('copy',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\copy.py',
+   'PYMODULE-2'),
+  ('csv',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\csv.py',
+   'PYMODULE-2'),
+  ('ctypes',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\ctypes\\__init__.py',
+   'PYMODULE-2'),
+  ('ctypes._endian',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\ctypes\\_endian.py',
+   'PYMODULE-2'),
+  ('ctypes.wintypes',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\ctypes\\wintypes.py',
+   'PYMODULE-2'),
+  ('dataclasses',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\dataclasses.py',
+   'PYMODULE-2'),
+  ('datetime',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\datetime.py',
+   'PYMODULE-2'),
+  ('decimal',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\decimal.py',
+   'PYMODULE-2'),
+  ('dis',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\dis.py',
+   'PYMODULE-2'),
+  ('email',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\email\\__init__.py',
+   'PYMODULE-2'),
+  ('email._encoded_words',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\email\\_encoded_words.py',
+   'PYMODULE-2'),
+  ('email._header_value_parser',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\email\\_header_value_parser.py',
+   'PYMODULE-2'),
+  ('email._parseaddr',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\email\\_parseaddr.py',
+   'PYMODULE-2'),
+  ('email._policybase',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\email\\_policybase.py',
+   'PYMODULE-2'),
+  ('email.base64mime',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\email\\base64mime.py',
+   'PYMODULE-2'),
+  ('email.charset',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\email\\charset.py',
+   'PYMODULE-2'),
+  ('email.contentmanager',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\email\\contentmanager.py',
+   'PYMODULE-2'),
+  ('email.encoders',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\email\\encoders.py',
+   'PYMODULE-2'),
+  ('email.errors',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\email\\errors.py',
+   'PYMODULE-2'),
+  ('email.feedparser',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\email\\feedparser.py',
+   'PYMODULE-2'),
+  ('email.generator',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\email\\generator.py',
+   'PYMODULE-2'),
+  ('email.header',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\email\\header.py',
+   'PYMODULE-2'),
+  ('email.headerregistry',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\email\\headerregistry.py',
+   'PYMODULE-2'),
+  ('email.iterators',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\email\\iterators.py',
+   'PYMODULE-2'),
+  ('email.message',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\email\\message.py',
+   'PYMODULE-2'),
+  ('email.parser',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\email\\parser.py',
+   'PYMODULE-2'),
+  ('email.policy',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\email\\policy.py',
+   'PYMODULE-2'),
+  ('email.quoprimime',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\email\\quoprimime.py',
+   'PYMODULE-2'),
+  ('email.utils',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\email\\utils.py',
+   'PYMODULE-2'),
+  ('fnmatch',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\fnmatch.py',
+   'PYMODULE-2'),
+  ('fractions',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\fractions.py',
+   'PYMODULE-2'),
+  ('getopt',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\getopt.py',
+   'PYMODULE-2'),
+  ('gettext',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\gettext.py',
+   'PYMODULE-2'),
+  ('glob',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\glob.py',
+   'PYMODULE-2'),
+  ('gzip',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\gzip.py',
+   'PYMODULE-2'),
+  ('hashlib',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\hashlib.py',
+   'PYMODULE-2'),
+  ('importlib',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\__init__.py',
+   'PYMODULE-2'),
+  ('importlib._abc',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\_abc.py',
+   'PYMODULE-2'),
+  ('importlib._bootstrap',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\_bootstrap.py',
+   'PYMODULE-2'),
+  ('importlib._bootstrap_external',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE-2'),
+  ('importlib.abc',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\abc.py',
+   'PYMODULE-2'),
+  ('importlib.machinery',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\machinery.py',
+   'PYMODULE-2'),
+  ('importlib.metadata',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\metadata\\__init__.py',
+   'PYMODULE-2'),
+  ('importlib.metadata._adapters',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\metadata\\_adapters.py',
+   'PYMODULE-2'),
+  ('importlib.metadata._collections',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\metadata\\_collections.py',
+   'PYMODULE-2'),
+  ('importlib.metadata._functools',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\metadata\\_functools.py',
+   'PYMODULE-2'),
+  ('importlib.metadata._itertools',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\metadata\\_itertools.py',
+   'PYMODULE-2'),
+  ('importlib.metadata._meta',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\metadata\\_meta.py',
+   'PYMODULE-2'),
+  ('importlib.metadata._text',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\metadata\\_text.py',
+   'PYMODULE-2'),
+  ('importlib.readers',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\readers.py',
+   'PYMODULE-2'),
+  ('importlib.resources',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\resources\\__init__.py',
+   'PYMODULE-2'),
+  ('importlib.resources._adapters',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\resources\\_adapters.py',
+   'PYMODULE-2'),
+  ('importlib.resources._common',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\resources\\_common.py',
+   'PYMODULE-2'),
+  ('importlib.resources._functional',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\resources\\_functional.py',
+   'PYMODULE-2'),
+  ('importlib.resources._itertools',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\resources\\_itertools.py',
+   'PYMODULE-2'),
+  ('importlib.resources.abc',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\resources\\abc.py',
+   'PYMODULE-2'),
+  ('importlib.resources.readers',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\resources\\readers.py',
+   'PYMODULE-2'),
+  ('importlib.util',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\util.py',
+   'PYMODULE-2'),
+  ('inspect',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\inspect.py',
+   'PYMODULE-2'),
+  ('ipaddress',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\ipaddress.py',
+   'PYMODULE-2'),
+  ('json',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\json\\__init__.py',
+   'PYMODULE-2'),
+  ('json.decoder',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\json\\decoder.py',
+   'PYMODULE-2'),
+  ('json.encoder',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\json\\encoder.py',
+   'PYMODULE-2'),
+  ('json.scanner',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\json\\scanner.py',
+   'PYMODULE-2'),
+  ('logging',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\logging\\__init__.py',
+   'PYMODULE-2'),
+  ('lzma',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\lzma.py',
+   'PYMODULE-2'),
+  ('numbers',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\numbers.py',
+   'PYMODULE-2'),
+  ('opcode',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\opcode.py',
+   'PYMODULE-2'),
+  ('pathlib',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\pathlib\\__init__.py',
+   'PYMODULE-2'),
+  ('pathlib._abc',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\pathlib\\_abc.py',
+   'PYMODULE-2'),
+  ('pathlib._local',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\pathlib\\_local.py',
+   'PYMODULE-2'),
+  ('pickle',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\pickle.py',
+   'PYMODULE-2'),
+  ('pkgutil',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\pkgutil.py',
+   'PYMODULE-2'),
+  ('pprint',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\pprint.py',
+   'PYMODULE-2'),
+  ('py_compile',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\py_compile.py',
+   'PYMODULE-2'),
+  ('quopri',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\quopri.py',
+   'PYMODULE-2'),
+  ('random',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\random.py',
+   'PYMODULE-2'),
+  ('selectors',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\selectors.py',
+   'PYMODULE-2'),
+  ('shutil',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\shutil.py',
+   'PYMODULE-2'),
+  ('signal',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\signal.py',
+   'PYMODULE-2'),
+  ('socket',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\socket.py',
+   'PYMODULE-2'),
+  ('statistics',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\statistics.py',
+   'PYMODULE-2'),
+  ('string',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\string.py',
+   'PYMODULE-2'),
+  ('stringprep',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\stringprep.py',
+   'PYMODULE-2'),
+  ('subprocess',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\subprocess.py',
+   'PYMODULE-2'),
+  ('tarfile',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\tarfile.py',
+   'PYMODULE-2'),
+  ('tempfile',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\tempfile.py',
+   'PYMODULE-2'),
+  ('textwrap',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\textwrap.py',
+   'PYMODULE-2'),
+  ('threading',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\threading.py',
+   'PYMODULE-2'),
+  ('token',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\token.py',
+   'PYMODULE-2'),
+  ('tokenize',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\tokenize.py',
+   'PYMODULE-2'),
+  ('tracemalloc',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\tracemalloc.py',
+   'PYMODULE-2'),
+  ('typing',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\typing.py',
+   'PYMODULE-2'),
+  ('urllib',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\urllib\\__init__.py',
+   'PYMODULE-2'),
+  ('urllib.parse',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\urllib\\parse.py',
+   'PYMODULE-2'),
+  ('win32con',
+   'C:\\Users\\lihx\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\win32\\lib\\win32con.py',
+   'PYMODULE-2'),
+  ('zipfile',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\zipfile\\__init__.py',
+   'PYMODULE-2'),
+  ('zipfile._path',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\zipfile\\_path\\__init__.py',
+   'PYMODULE-2'),
+  ('zipfile._path.glob',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\zipfile\\_path\\glob.py',
+   'PYMODULE-2'),
+  ('zipimport',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\zipimport.py',
+   'PYMODULE-2')])
