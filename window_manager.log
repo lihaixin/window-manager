@@ -20147,3 +20147,40 @@ AttributeError: 'WindowManager' object has no attribute 'machine_code'. Did you 
 2025-05-18 20:35:02,244 - INFO - Starting WindowManager initialization
 2025-05-18 20:35:02,253 - INFO - WindowManager initialized successfully
 2025-05-18 20:35:02,279 - INFO - Main window shown
+2025-05-19 17:32:56,921 - INFO - Script started
+2025-05-19 17:32:56,922 - INFO - Application starting
+2025-05-19 17:32:57,007 - INFO - Starting WindowManager initialization
+2025-05-19 17:32:57,014 - INFO - WindowManager initialized successfully
+2025-05-19 17:32:57,033 - INFO - Main window shown
+2025-05-19 18:01:41,463 - ERROR - Error in check_window_position: (5, 'GetCursorPos', '¾Ü¾ø·ÃÎÊ¡£')
+2025-05-19 18:01:41,519 - ERROR - Error in check_window_position: (5, 'GetCursorPos', '¾Ü¾ø·ÃÎÊ¡£')
+2025-05-19 18:01:41,621 - ERROR - Error in check_window_position: (5, 'GetCursorPos', '¾Ü¾ø·ÃÎÊ¡£')
+2025-05-19 18:01:41,739 - ERROR - Error in check_window_position: (5, 'GetCursorPos', '¾Ü¾ø·ÃÎÊ¡£')
+2025-05-19 18:01:41,843 - ERROR - Error in check_window_position: (5, 'GetCursorPos', '¾Ü¾ø·ÃÎÊ¡£')
+2025-05-19 18:28:17,956 - ERROR - Error in check_window_position: (5, 'GetCursorPos', '¾Ü¾ø·ÃÎÊ¡£')
+2025-05-19 18:28:18,070 - ERROR - Error in check_window_position: (5, 'GetCursorPos', '¾Ü¾ø·ÃÎÊ¡£')
+2025-05-19 18:28:18,179 - ERROR - Error in check_window_position: (5, 'GetCursorPos', '¾Ü¾ø·ÃÎÊ¡£')
+2025-05-19 18:28:18,286 - ERROR - Error in check_window_position: (5, 'GetCursorPos', '¾Ü¾ø·ÃÎÊ¡£')
+2025-05-19 18:28:18,387 - ERROR - Error in check_window_position: (5, 'GetCursorPos', '¾Ü¾ø·ÃÎÊ¡£')
+2025-05-19 18:28:18,505 - ERROR - Error in check_window_position: (5, 'GetCursorPos', '¾Ü¾ø·ÃÎÊ¡£')
+2025-05-19 18:28:18,607 - ERROR - Error in check_window_position: (5, 'GetCursorPos', '¾Ü¾ø·ÃÎÊ¡£')
+2025-05-19 18:28:18,716 - ERROR - Error in check_window_position: (5, 'GetCursorPos', '¾Ü¾ø·ÃÎÊ¡£')
+2025-05-19 18:28:18,823 - ERROR - Error in check_window_position: (5, 'GetCursorPos', '¾Ü¾ø·ÃÎÊ¡£')
+2025-05-19 18:28:18,940 - ERROR - Error in check_window_position: (5, 'GetCursorPos', '¾Ü¾ø·ÃÎÊ¡£')
+2025-05-19 18:28:19,042 - ERROR - Error in check_window_position: (5, 'GetCursorPos', '¾Ü¾ø·ÃÎÊ¡£')
+2025-05-19 18:28:19,153 - ERROR - Error in check_window_position: (5, 'GetCursorPos', '¾Ü¾ø·ÃÎÊ¡£')
+2025-05-19 18:28:19,260 - ERROR - Error in check_window_position: (5, 'GetCursorPos', '¾Ü¾ø·ÃÎÊ¡£')
+2025-05-19 18:28:19,370 - ERROR - Error in check_window_position: (5, 'GetCursorPos', '¾Ü¾ø·ÃÎÊ¡£')
+2025-05-19 18:28:19,484 - ERROR - Error in check_window_position: (5, 'GetCursorPos', '¾Ü¾ø·ÃÎÊ¡£')
+2025-05-19 18:28:19,596 - ERROR - Error in check_window_position: (5, 'GetCursorPos', '¾Ü¾ø·ÃÎÊ¡£')
+2025-05-19 18:28:19,696 - ERROR - Error in check_window_position: (5, 'GetCursorPos', '¾Ü¾ø·ÃÎÊ¡£')
+2025-05-19 18:28:19,809 - ERROR - Error in check_window_position: (5, 'GetCursorPos', '¾Ü¾ø·ÃÎÊ¡£')
+2025-05-19 18:28:19,919 - ERROR - Error in check_window_position: (5, 'GetCursorPos', '¾Ü¾ø·ÃÎÊ¡£')
+2025-05-19 18:28:20,029 - ERROR - Error in check_window_position: (5, 'GetCursorPos', '¾Ü¾ø·ÃÎÊ¡£')
+2025-05-19 18:28:20,139 - ERROR - Error in check_window_position: (5, 'GetCursorPos', '¾Ü¾ø·ÃÎÊ¡£')
+2025-05-19 18:28:20,248 - ERROR - Error in check_window_position: (5, 'GetCursorPos', '¾Ü¾ø·ÃÎÊ¡£')
+2025-05-19 18:28:20,354 - ERROR - Error in check_window_position: (5, 'GetCursorPos', '¾Ü¾ø·ÃÎÊ¡£')
+2025-05-19 18:28:20,462 - ERROR - Error in check_window_position: (5, 'GetCursorPos', '¾Ü¾ø·ÃÎÊ¡£')
+2025-05-19 18:28:20,571 - ERROR - Error in check_window_position: (5, 'GetCursorPos', '¾Ü¾ø·ÃÎÊ¡£')
+2025-05-19 18:28:20,688 - ERROR - Error in check_window_position: (5, 'GetCursorPos', '¾Ü¾ø·ÃÎÊ¡£')
+2025-05-19 18:28:20,796 - ERROR - Error in check_window_position: (5, 'GetCursorPos', '¾Ü¾ø·ÃÎÊ¡£')
