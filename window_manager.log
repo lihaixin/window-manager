@@ -20142,3 +20142,8 @@ AttributeError: 'WindowManager' object has no attribute 'machine_code'. Did you 
 2025-05-18 19:46:14,607 - INFO - Starting WindowManager initialization
 2025-05-18 19:46:14,622 - INFO - WindowManager initialized successfully
 2025-05-18 19:46:14,666 - INFO - Main window shown
+2025-05-18 20:35:02,155 - INFO - Script started
+2025-05-18 20:35:02,155 - INFO - Application starting
+2025-05-18 20:35:02,244 - INFO - Starting WindowManager initialization
+2025-05-18 20:35:02,253 - INFO - WindowManager initialized successfully
+2025-05-18 20:35:02,279 - INFO - Main window shown
