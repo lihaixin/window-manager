@@ -17,8 +17,6 @@ python -m PyInstaller window_manager.spec
 ## 本地trae调试
 
 ```
-python -m PyInstaller .\window_manager.spec
-.\dist\window_manager.exe
 git add .
 git commit -m "add github actions"
 git push -u origin main
